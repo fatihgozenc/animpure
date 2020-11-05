@@ -1,7 +1,7 @@
 # AnimPure
 
 ## Simple Animation Library
-It's complete functional JavaScript library without any dependencies. It still needs more development, but it's ready to use as module(341B) or minified version(1KB).
+It's complete functional JavaScript animation library without any dependencies. It still needs more development, but it's ready to use as module(341B) or minified version(1KB).
 
 ### Sample Usage
 After you insert [minified version](https://github.com/fatihgozenc/animpure/dist/AnimPure.min.js/) or [module version](https://github.com/fatihgozenc/animpure/dist/AnimPure.module.js/) in your document, you can use it like in the example:
