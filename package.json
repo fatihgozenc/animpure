@@ -1,0 +1,23 @@
+{
+	"name": "animpure",
+	"version": "0.0.1",
+	"author": "Fatih Gözenç",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"bundle": "webpack"
+	},
+	"keywords": [
+		"animation",
+		"simple animate",
+		"no dependencies"
+	],
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.12.3",
+		"@babel/preset-env": "^7.12.1",
+		"babel-loader": "^8.1.0",
+		"webpack": "^5.4.0",
+		"webpack-cli": "^4.2.0"
+	}
+}
