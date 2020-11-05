@@ -4,8 +4,8 @@
 It's complete functional JavaScript animation library without any dependencies. It still needs more development, but it's ready to use as module(341B) or minified version(1KB).
 
 ### Sample Usage
-After you insert [minified version](https://github.com/fatihgozenc/animpure/dist/AnimPure.min.js/) or [module version](https://github.com/fatihgozenc/animpure/dist/AnimPure.module.js/) in your document, you can use it like in the example:
-<pre>
+After you insert [minified version](https://github.com/fatihgozenc/AnimPure/releases/download/0.0.1/AnimPure.min.js/) or [module version](https://github.com/fatihgozenc/AnimPure/releases/download/0.0.1/AnimPure.module.js) in your document, you can use it like in the example:
+```javascript
 
 var box = document.getElementById('box');
 
@@ -25,7 +25,7 @@ AnimPure.animate({
 	}
 })
 
-</pre>
+```
 
 ### Thank you
 For your interest. I am still developing it but you can download and use it. It's designed for thinking simple and lightweight code structures.
