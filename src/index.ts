@@ -1,5 +1,5 @@
 /*!
- * AnimPure v0.0.6
+ * AnimPure v0.0.7
  * Pure Javascript animation library without any dependency 
  *
  * https://github.com/fatihgozenc/animpure
@@ -19,7 +19,7 @@ export default function animate(
     action: AnimationAction,
     duration: number,
     timing = Eases.none
-) {
+): Promise<number> {
     const start = performance.now();
     requestAnimationFrame(function progress(time) {
         // fraction goes from 0 to 1
@@ -32,4 +32,5 @@ export default function animate(
             requestAnimationFrame(progress);
         }
     });
+    return delay(duration);
 }

@@ -5,9 +5,11 @@ It's complete functional JavaScript animation library without any dependencies. 
 
 ## Installation
 
-| NPM                                        | YARN                                          |
-| ------------------------------------------ | --------------------------------------------- |
-| `npm i @gozenc/animpure` | `yarn add @gozenc/animpure` |
+### NPM
+```npm i @gozenc/animpure```
+
+### Yarn
+```yarn add @gozenc/animpure```
 
 ### Sample Usage
 ```javascript

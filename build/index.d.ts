@@ -1,5 +1,5 @@
 /*!
- * AnimPure v0.0.6
+ * AnimPure v0.0.7
  * Pure Javascript animation library without any dependency
  *
  * https://github.com/fatihgozenc/animpure
@@ -12,4 +12,4 @@ export declare const Eases: {
 };
 export declare const delay: (n: number) => Promise<number>;
 export declare const delaySync: (n: number) => void;
-export default function animate(action: AnimationAction, duration: number, timing?: EaseFunction): void;
+export default function animate(action: AnimationAction, duration: number, timing?: EaseFunction): Promise<number>;
