@@ -1,26 +1,26 @@
 const path = require('path');
+// const webpack = require("webpack");
 
 module.exports = {
-	entry: './src/AnimPure.js',
+	mode: "production",
+	entry: './src/index.ts',
 	output: {
-		filename: 'AnimPure.module.js',
-		path: path.resolve(__dirname, 'dist'),
-		library: 'AnimPure',
-		libraryTarget: 'commonjs2'
+		clean: true,
+		filename: 'index.js',
+		umdNamedDefine: true,
+		libraryTarget: 'umd',
+		path: path.resolve(__dirname, 'build'),
 	},
 	module: {
 		rules: [
 			{
-				test: /\.m?js$/,
+				test: /\.ts?$/,
+				use: 'ts-loader',
 				exclude: /node_modules/,
-				use: {
-					loader: 'babel-loader',
-					options: {
-						presets: ['@babel/preset-env']
-					}
-				}
 			}
-		]
+		],
+	},
+	resolve: {
+		extensions: ['.tsx', '.ts', '.js'],
 	}
-
 };
