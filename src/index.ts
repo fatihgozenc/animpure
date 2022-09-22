@@ -1,5 +1,5 @@
 /*!
- * AnimPure v0.0.2
+ * AnimPure v0.0.5
  * Pure Javascript animation library without any dependency 
  *
  * https://github.com/fatihgozenc/animpure

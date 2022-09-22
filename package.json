@@ -1,10 +1,10 @@
 {
   "name": "@gozenc/animpure",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "author": "Fatih Gözenç",
   "description": "Simple functional JavaScript animation library without any dependencies.",
   "main": "build/index.js",
-  "types": "build/types.d.ts",
+  "types": "build/index.d.ts",
   "files": [
     "/build"
   ],
