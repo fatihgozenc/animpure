@@ -17,7 +17,7 @@ It's complete functional JavaScript animation library without any dependencies. 
 ### Sample Usage
 
 ```javascript
-import animate, { Eases } from "@gozenc/animpure";
+import animate, { Eases } from "@gozenc/animpure ";
 
 const box = document.getElementById("box");
 
